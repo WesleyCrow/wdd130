@@ -529,3 +529,7 @@ h3 {
     font-family: "Raleway", "Rock Salt", sans-serif;
     box-shadow: 5px 5px 10px #373e43;
 }
+
+body {
+    background-color: blue;
+  }
