@@ -33,7 +33,7 @@ nav a {
 
 .book, .join {
   text-align: center;
-  color: #ffffff; /* White */
+  color: #272727; /* White */
   text-decoration: none; /* No underline */
 }
 
@@ -137,20 +137,23 @@ footer {
 /* Rivers Page Styles */
 .rivers-page-hero {
   position: relative; /* Allow positioning of child elements */
-  background-color: #969696; /* Light gray background */
+  background-color: #ededed; /* Light gray background */
   padding: 50px 0; /* Add padding around the hero section */
 }
 
 .rivers-page-hero img {
+  position: relative;
+  left: 350px;
   width: 50%; /* Image takes full width of the section */
   height: auto; /* Maintain aspect ratio */
+  margin-left: auto; /* Push the image to the right */
 }
 
 .rivers-page-hero-text {
-  position: absolute; /* Position text on top of the image */
+  position: absolute; 
   bottom: 100px; /* Adjust text position */
   left: 50px; /* Adjust text position */
-  color: #8c8c8c; /* Dark gray text color */
+  color: #2b2b2b; /* Dark gray text color */
   text-align: left; /* Align text to the left */
 }
 
