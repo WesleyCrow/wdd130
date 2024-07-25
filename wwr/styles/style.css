@@ -137,20 +137,20 @@ footer {
 /* Rivers Page Styles */
 .rivers-page-hero {
   position: relative; /* Allow positioning of child elements */
-  background-color: #f2f2f2; /* Light gray background */
+  background-color: #969696; /* Light gray background */
   padding: 50px 0; /* Add padding around the hero section */
 }
 
 .rivers-page-hero img {
-  width: 100%; /* Image takes full width of the section */
+  width: 50%; /* Image takes full width of the section */
   height: auto; /* Maintain aspect ratio */
 }
 
 .rivers-page-hero-text {
   position: absolute; /* Position text on top of the image */
-  bottom: 50px; /* Adjust text position */
+  bottom: 100px; /* Adjust text position */
   left: 50px; /* Adjust text position */
-  color: #333; /* Dark gray text color */
+  color: #8c8c8c; /* Dark gray text color */
   text-align: left; /* Align text to the left */
 }
 
