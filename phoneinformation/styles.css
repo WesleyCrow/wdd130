@@ -183,9 +183,40 @@ main {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #30bdab; /* Secondary color */ }
-  
+
 .button:hover {
     background-color: #30bdab; /* Secondary color */
+}
+
+/* Hero Section Styling */
+#hero {
+    display: grid; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 30vh;        
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Grid for Image and Text */
+.specs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    align-items: center;
+}
+
+/* Grid for Feature List and Image */
+#features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px; 
 }
 
 /* Footer Styling */
@@ -219,5 +250,60 @@ footer p {
 
     .social {
         margin-top: 10px;
+    }
+}
+
+#intro {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.left-image {
+    width: 50%;
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+.right-text {
+    flex: 1;
+}
+
+.features-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right-image {
+    width: 40%;
+    max-width: 400px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .image-text-container, .features-container {
+        flex-direction: column;
+    }
+
+    .left-image, .right-image {
+        width: 100%;
+        max-width: none;
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
