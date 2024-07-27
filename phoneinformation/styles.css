@@ -22,6 +22,34 @@ a:hover {
     color: #000000; /* Primary color */
 }
 
+.phone-comparison {
+    display: flex;
+    justify-content: space-around; /* Distributes space around the cards */
+    align-items: flex-start; /* Aligns items to the top */
+    gap: 30px;
+    margin-bottom: 40px; /* Adds spacing below the comparison */
+}
+
+.phone-card {
+    text-align: left; /* Aligns text within the card to the left */
+}
+
+.phone-image {
+    max-width: 100%; /* Ensures images scale down if needed */
+    height: auto;
+}
+
+.comparison-grid {
+    display: flex; /* Enables Flexbox for this container */
+    align-items: center; /* Vertically aligns items in the container */
+    gap: 20px; /* Adds spacing between the image and text */
+    margin-bottom: 30px; /* Adds spacing below the container */
+}
+
+.comparison-img {
+    max-width: 80%; /* Ensures the image doesn't overflow */
+    height: auto;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -57,6 +85,11 @@ nav a {
     position: relative;
     height: 20px;
     overflow: hidden;
+}
+
+#review-process {
+    text-align: center; /* Centers the text within the container */
+    margin-bottom: 40px; /* Adds spacing below the section */
 }
 
 #home-background {
@@ -194,7 +227,7 @@ main {
     justify-content: center; 
     align-items: center; 
     text-align: center; 
-    height: 30vh;        
+    height: 15vh;        
 }
 
 /* Main Content Styling */
